@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVIGATION BAR STYLING */
+#navBar {
+  display: flex;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+
+  position: fixed;
+  width: 100%;
+
+  background-color: #FEFEFE;
+}
+
+.navBarList {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.navBarItem {
+  font-family: Times;
+  display: inline;
+  padding: 20px;
+  margin-left: 70px;
+  margin-right: 70px;
+  font-size: 20px;
+  color: #F6D5C5;
+
+  font-family: "Open Sans";
+  font-weight: lighter;
+  font-style: italic;
+  text-decoration: underline dotted red;
+}
+
+.navBarItem:hover {
+  color: white;
+  background-color: #8FA8BA;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+
+  margin-top: 100px;
+  background-color: #E5DFDB;
+  padding: 20px;
+}
+
+#aboutUs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 20px;
+  margin: 20px;
+}
+
+#Amehja,
+#Ashi,
+#Bhavya {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  margin-left: 400px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 2px;
+  width: 500px;
+}
+
+img {
+  width: inherit;
+  height: inherit;
+  border-style: double;
+  border-color: black;
+  border-width: 4px;
+}
+
+
+/* footer */
+#hackathon {
+  font-size: 50px;
+  background-color: #FEFEFE;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#copyright {
+  background-color: #FEFEFE;
+  color: #B3D3DC;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+}
+
