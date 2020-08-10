@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Cope With Covid-19 - About Us</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/journal.css" />
+
+    <!--import the jQuery API   -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      defer
+    ></script>
+
+    <!--import the jsPDF library: https://stackoverflow.com/questions/16858954/how-to-properly-use-jspdf-library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
+    <!-- import the webpage's javascript -->
+    <script src="journal.js" defer></script>
+    
+    <!-- RESOURCES USED TO AID IN DEVELOPMENT OF downloadPDF() FUNCTION-->
+    <!-- https://stackoverflow.com/questions/53583348/convert-input-value-into-a-string -->
+    <!-- https://www.c-sharpcorner.com/UploadFile/b629e0/creating-pdf-from-html-through-jspdf/ -->
+    <!-- TUTORIAL: https://www.youtube.com/watch?v=CnprxD_sJFE-->
+    <!-- Help from mentor Namit -->
+  
+    <script>
+      function downloadPDF() {
+        var entry = jsPDF();
+        entry.text(document.getElementById("activityType").value.toString(), 10, 10);
+        entry.save("journalEntry.pdf");
+      }
+    </script>
+    
+    
+  </head>
+  <body>
+    <div id="navBar">
+      <ul id="navBarList">
+        <a href="index.html"><li class="navBarItem">Home</li></a>
+        <a href="about.html"><li class="navBarItem">About Us</li></a>
+        <a href="covid.html"><li class="navBarItem">COVID-19</li></a>
+        <a href="journal.html"><li class="navBarItem">My Journal</li></a>
+      </ul>
+    </div>
+
+    <div class="homepage">
+      <h1>Track Your Habits</h1>
+      <div id="track">
+        <form>
+          <!-- Tip to use <textarea> element:  https://stackoverflow.com/questions/58821367/disable-horizontal-scrolling-on-input-type-text        -->
+          <textarea
+            id="activityType"
+            type="text"
+            placeholder="Journaling can help you track your habits, feelings, and daily activities.  Being able to look back on a day well spent can be therapeutic and fosters mindfulness.  Begin writing your journal entry here, don't forget to include the date!"
+          ></textarea>
+          <br /><br />
+          <input class="submitBtn" type="submit" value="Submit" />
+        </form>
+      </div>
+
+      <div class="entries">
+        <div class="entry">
+          <p id="activityOne"></p>
+        </div>
+
+        <button id="downloadButton" onclick="downloadPDF()">
+          Download Journal Entry As PDF
+        </button>
+      </div>
+    </div>
+    
+
+    
+    
+    <div id="hackathon">
+        Made for Helix Hacks Hackathon
+        <h5 id="copyright">
+          © 2020 by Cope with COVID. Proudly created with Glitch.com
+        </h5>
+      </div>
+  </body>
+</html>
+

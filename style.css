@@ -1,0 +1,198 @@
+/* CSS files add styling rules to your content */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html, body{
+  
+  margin: 0;
+  padding: 0;
+  
+}
+
+/* NAVIGATION BAR STYLING */
+#navBar{
+  
+  display: flex;
+  justify-content: center;
+ 
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  
+  position: fixed;
+  width: 100%;
+  
+  background-color:  #FEFEFE;
+  
+}
+
+.navBarList{
+  margin: 0;
+  padding: 0;
+  
+  list-style: none;
+}
+
+.navBarItem{
+  
+  font-family: "Open Sans";
+  font-weight: lighter;
+  font-style: italic;
+  text-decoration: underline dotted red;
+  
+  display: inline;
+  padding: 20px;
+  margin-left: 70px;
+  margin-right: 70px;
+  color: #F6D5C5; 
+  font-size: 20px;
+}
+
+.navBarItem:hover{
+  color: white;
+  background-color: #8FA8BA;
+}
+
+
+
+/* HOMEPAGE DIV STYLING */
+
+.homepage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#title{
+  font-family: "Open Sans";
+  margin-top: 100px;
+  font-size: 50px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+#subTitle{
+  background-color: #E3E8ED ;
+  text-align: center;
+  justify-content: center;
+  padding: 40px;  
+
+}
+
+
+.ageGrid{
+  display: flex;
+    
+  justify-content: center;
+  top: 0;
+  margin: 0;
+}
+
+#gridBoxOne{
+  background-color: #838280;
+  width: 450px;
+  word-spacing: 2px;
+  padding: 30px;
+  text-align: center;
+}
+
+#gridBoxTwo{
+  width: 450px;
+  text-align: center;
+  padding: 30px;
+  background-color: #E5DFDB;  
+}
+
+#gridBoxThree{
+  width: 450px;
+  text-align: center;
+  padding: 30px;
+  background-color: #F6D5C5;  
+}
+
+
+#gridBoxAbout{
+  background-color:#8FA8BA;
+  width: 450px;
+  word-spacing: 2px;
+  padding: 30px;
+  text-align: center;
+  
+}
+
+#gridBoxAboutImage{
+  background-color: :#FEE2BD;
+  width: 450px;
+  word-spacing: 2px;
+  padding: 30px;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+#gridBoxCovid{
+  background-color: #FEFEFE;
+  width: 450px;
+  text-align: center;
+  padding: 30px;
+}
+
+/* GETTING HELP INFO STYLING */
+#gettingHelp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#gettingHelpPara{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 19px;
+}
+
+.gettingHelpNum{
+  margin: 20px;
+}
+
+#numbers{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#corresponding_to_numbers{
+  background-color: #E3E8ED;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+
+/* footer */
+
+#hackathon{
+  font-size: 50px;
+  background-color: #FEFEFE;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+
+#copyright{
+  background-color: #FEFEFE;
+  color:#B3D3DC;
+  font-weight: bold;
+  font-size:15px;
+  text-align: center;
+}
+
+

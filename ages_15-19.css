@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVIGATION BAR STYLING */
+#navBar {
+  display: flex;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+
+  position: fixed;
+  width: 100%;
+
+  background-color: #FEFEFE;
+}
+
+.navBarList {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.navBarItem {
+  font-family: "Open Sans";
+  font-weight: lighter;
+  font-style: italic;
+  text-decoration: underline dotted red;
+  font-size: 20px;
+  color: #F6D5C5;
+
+  display: inline;
+  padding: 20px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.navBarItem:hover {
+  color: grey;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-top: 100px;
+  background-color: #FEE2BD;
+  padding: 20px;
+}
+
+#little_kids {
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: left;
+
+  padding: 40px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#first_list {
+  text-align: left;
+}
+
+#hackathon {
+  font-size: 50px;
+  background-color: #FEFEFE;
+  text-align: center;
+  margin: 20px;
+}
+
+#copyright {
+  background-color: #FEFEFE;
+  color: #B3D3DC;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+}

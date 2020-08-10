@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVIGATION BAR STYLING */
+#navBar {
+  display: flex;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+
+  position: fixed;
+  width: 100%;
+
+  background-color: #FEFEFE;
+}
+
+.navBarList {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.navBarItem {
+  display: inline;
+  padding: 20px;
+  margin-left: 70px;
+  margin-right: 70px;
+  color: #F6D5C5;
+  font-size: 20px;
+
+  font-family: "Open Sans";
+  font-weight: lighter;
+  font-style: italic;
+  text-decoration: underline dotted red;
+}
+
+.navBarItem:hover {
+  color: white;
+  background-color: #8FA8BA;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-top: 100px;
+  background-color: #E5DFDB;
+  padding: 20px;
+}
+
+#track {
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+}
+
+form {
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+}
+
+.entries {
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px;
+  margin: 20px;
+  background-color: lightblue;
+}
+
+.entry {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  margin: 20px;
+  background-color: lightblue;
+}
+
+#activityType {
+  width: 800px;
+  height: 600px;
+  font-size: 30px;
+  overflow: hidden;
+  resize: both;
+}
+
+.submitBtn {
+  width: 200px;
+  height: 30px;
+  font-size: 18px;
+  background-color: #fffbeb;
+  border-style: ridge;
+  border-width: 4px;
+  border-color: black;
+  margin: 40px;
+}
+
+p {
+  font-size: 32px;
+}
+
+#downloadButton {
+  display: flex;
+  justify-content: center;
+  visibility: hidden;
+  width: 300px;
+  height: 30px;
+  font-size: 18px;
+  background-color: #fffbeb;
+  border-style: ridge;
+  border-width: 4px;
+  border-color: black;
+  margin: 40px;
+}
+
+/* footer */
+#hackathon {
+  font-size: 50px;
+  background-color: #FEFEFE;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#copyright {
+  background-color: #FEFEFE;
+  color: #B3D3DC;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+}
+
