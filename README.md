@@ -1,3 +1,11 @@
+Helix Hacks Hackathon Project
+=================
+Explore the Devpost Project: https://devpost.com/software/cope-with-covid-zcve2l?ref_content=user-portfolio&ref_feature=in_progress
+
+
+
+
+
 Welcome to Glitch
 =================
 
@@ -37,8 +45,6 @@ Made by [Glitch](https://glitch.com/)
 \ ゜o゜)ノ
 
 
-Helix Hacks Hackathon Project
-=================
-Explore the Devpost Project: https://devpost.com/software/cope-with-covid-zcve2l?ref_content=user-portfolio&ref_feature=in_progress
+
 
 
